@@ -1,0 +1,41 @@
+.about-wrap {
+  margin-top: 40px;
+}
+.j-icon img {
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.about-wrap .j-title {
+  text-align: center;
+}
+.about-wrap .j-title a {
+  letter-spacing: 1.25px;
+  font-weight: 300;
+  color: black;
+}
+.about-wrap .j-title a:hover {
+  color: #e5beb0;
+}
+.about-wrap .j-title p {
+  font-weight: 300;
+  letter-spacing: 1.25px;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.about-wrap .j-title .j-date {
+  font-weight: 300;
+  color: #999;
+}
+.about-wrap .j-title .j-pos {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about-wrap .j-desc ul li {
+  letter-spacing: 1px;
+  font-weight: 300;
+  padding-bottom: 8px;
+}
