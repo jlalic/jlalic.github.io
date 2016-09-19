@@ -11,7 +11,7 @@
       </h1>
       <p class="lead">{{ site.description }}</p>
       <p class="city">
-        PDX, OR
+        Portland, OR
       </p>
     </div>
 
@@ -24,7 +24,7 @@
         `layout: page` in the front-matter. See readme for usage.
       {% endcomment %}
         <ul>
-            <li><a class="sidebar-nav-item" href="{{ site.baseurl }}">Blog</a></li>
+            <!-- <li><a class="sidebar-nav-item" href="{{ site.baseurl }}">Blog</a></li> -->
 
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
@@ -36,6 +36,7 @@
       {% endfor %}
 
             <li><a class="sidebar-nav-item" href="{{ site.github }}" target=_blank>GitHub</a></li>
+            <li><a class="sidebar-nav-item" href="https://www.linkedin.com/in/jefflalic" target="_blank">LinkedIn</a></li>
         </ul>
     </nav>
 
