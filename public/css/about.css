@@ -1,6 +1,11 @@
 .about-wrap {
   margin-top: 40px;
 }
+
+.about-wrap .j-wrap {
+  margin-bottom: 3em;
+}
+
 .j-icon img {
   height: 60px;
   display: block;
@@ -38,8 +43,4 @@
   letter-spacing: 1px;
   font-weight: 300;
   padding-bottom: 8px;
-}
-
-.j-wrap {
-  margin-bottom: 3em;
 }
